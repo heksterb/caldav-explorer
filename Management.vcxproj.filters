@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cc" />
+    <ClCompile Include="DAV.cc" />
+    <ClCompile Include="ParseXMLStates.cc" />
+    <ClCompile Include="Win32\ParseXML.cc" />
+    <ClCompile Include="Win32\HTTPClient.cc" />
+    <ClCompile Include="Win32\DNSClient.cc" />
+    <ClCompile Include="String.cc" />
+    <ClCompile Include="ServiceLocation.cc" />
+    <ClCompile Include="CalDAV.cc" />
+    <ClCompile Include="Calendar.cc" />
+    <ClCompile Include="Dynamic.cc" />
+    <ClCompile Include="AdaptableStreamBuffer.cc" />
+    <ClCompile Include="CBuffer.cc" />
+    <ClCompile Include="WebDAV.cc" />
+    <ClCompile Include="Edit.cc" />
+    <ClCompile Include="Versioning.cc" />
+    <ClCompile Include="Session.cc" />
+    <ClCompile Include="Synchronization.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DAV.h" />
+    <ClInclude Include="ParseXMLStates.h" />
+    <ClInclude Include="Win32\ParseXML.h" />
+    <ClInclude Include="Win32\HTTPClient.h" />
+    <ClInclude Include="Win32\DNSClient.h" />
+    <ClInclude Include="String.h" />
+    <ClInclude Include="ServiceLocation.h" />
+    <ClInclude Include="CalDAV.h" />
+    <ClInclude Include="Calendar.h" />
+    <ClInclude Include="Dynamic.h" />
+    <ClInclude Include="AdaptableStreamBuffer.h" />
+    <ClInclude Include="CBuffer.h" />
+    <ClInclude Include="WebDAV.h" />
+    <ClInclude Include="Edit.h" />
+    <ClInclude Include="Versioning.h" />
+    <ClInclude Include="Session.h" />
+    <ClInclude Include="Synchronization.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>

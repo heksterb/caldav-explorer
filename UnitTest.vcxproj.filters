@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Win32\DNSClient.h" />
+    <ClInclude Include="Calendar.h" />
+    <ClInclude Include="Dynamic.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test.cc" />
+    <ClCompile Include="DAV.cc" />
+    <ClCompile Include="Win32\HTTPClient.cc" />
+    <ClCompile Include="Win32\ParseXML.cc" />
+    <ClCompile Include="ParseXMLStates.cc" />
+    <ClCompile Include="Win32\DNSClient.cc" />
+    <ClCompile Include="TestCalendar.cc" />
+    <ClCompile Include="Calendar.cc" />
+    <ClCompile Include="Dynamic.cc" />
+    <ClCompile Include="TestCalendarWrite.cc" />
+    <ClCompile Include="HTTPStreamBuf.cc" />
+    <ClCompile Include="TestStreams.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="cheap.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="icloud.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="7b84cd2d-8cd9-4ed4-82bc-89fe145a001e.ics">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="84F34FBF-E678-4D49-AA9D-AAB54221332C.ics">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="D4DC6FDA-667C-461B-8681-2025FA436BAE.ics">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

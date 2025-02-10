@@ -1,0 +1,11 @@
+.svn/
+*.vcxproj.user
+*.VC.db
+*.sdf
+passwords.txt
+.vs/
+Debug/
+Release/
+Documentation/
+Management.xcodeproj/
+NeXTStep/
